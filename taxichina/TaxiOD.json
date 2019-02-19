@@ -1,0 +1,48 @@
+{
+  "file_iocane": "TrE49L9iqRLmCyDFEzJXKIAbk5wXBelckeUYk9tRnGGyiFXLmI4scxSUxGEIU6PPNauSbwBs2EtDE6iHraeXJCCqhTm2l+D0kVBmU0NaCz6DALjE8t/nNHAb1TJpXQPvkOM/c6wuMc5GgvyDZu1eVeZoIKwa5QEI7GnbE8gc5TE=$af020ca0527984238aa6a31c8480f9d9$PbSyhDWowMjv$baa73b33b0d17339914a16b3909156af6812bce0b5bf6eeed03058e9ccfbffb4$250000$cbc",
+  "name": "Taxi OD data",
+  "header": 1,
+  "separator": ",",
+  "dateformat": ["YYYYMMDDHHmmss"],
+  "meta": {
+    "date": "oTime",
+    "start_latitude": "oLat",
+    "start_longitude": "oLon",
+    "end_latitude": "dLat",
+    "end_longitude": "dLon",
+    "group": "ID"
+  },
+  "attributes": [
+    {
+      "name": "oDirection",
+      "type": "quantitative"
+    },
+    {
+      "name": "oTslot",
+      "type": "quantitative"
+    },
+    {
+      "name": "Income",
+      "type": "quantitative"
+    },
+    {
+      "name": "Duration",
+      "type": "quantitative"
+    },
+    {
+      "name": "Weather",
+      "type": "categorical"
+    },
+    {
+      "name": "Distance",
+      "type": "quantitative"
+    },
+    {
+      "name": "aSpeed",
+      "type": "quantitative"
+    }
+  ],
+  "author": "Liu Liqun",
+  "description": "Taxi OD data in China",
+  "source": ""
+}

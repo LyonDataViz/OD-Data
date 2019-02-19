@@ -2,5 +2,6 @@
   "random/random-data.json",
   "minard/minard-data.json",
   "FordgobikeDataset/201801-fordgobike-tripdata.json",
+  "taxichina/TaxiOD.json",
   "PL&VL/PVOD.json"
 ]
