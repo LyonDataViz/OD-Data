@@ -1,0 +1,42 @@
+{
+  "file": "PL&VL/PVOD.csv",
+  "name": "PL & VL",
+  "header": 1,
+  "separator": ",",
+  "meta": {
+    "date": "YEAR",
+    "start_latitude": "start_lat",
+    "start_longitude": "start_lon",
+    "end_latitude": "end_lat",
+    "end_longitude": "end_lon"
+  },
+  "attributes": [
+    {
+      "name": "DEPT_O",
+      "type": "categorical"
+    },
+    {
+      "name": "DEPT_LIBELLE_O",
+      "type": "categorical"
+    },
+    {
+      "name": "DEPT_D",
+      "type": "categorical"
+    },
+    {
+      "name": "DEPT_LIBELLE_D",
+      "type": "categorical"
+    },
+    {
+      "name": "TMJA_VL_2S",
+      "type": "quantitative"
+    },
+    {
+      "name": "TMJA_PL_2S",
+      "type": "quantitative"
+    }
+  ],
+  "author": "Natacha Roger, data.gouv.fr",
+  "description": "La matrice nationale des flux de véhicules légers (VL) et des flux de poids lourds (PL) est constituée d’une estimation du nombre de véhicules se rendant d’un département à un autre pour une journée moyenne de l’année 2011. Les flux d’origine et de destination sont évalués deux sens confondus. Data geocoded by Liu Liqun",
+  "source": "https://www.data.gouv.fr/fr/datasets/matrice-nationale-origine-destination-des-flux-de-vehicules-legers-et-de-poids-lourds/"
+}

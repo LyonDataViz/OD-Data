@@ -1,0 +1,78 @@
+{
+    "file": "FordgobikeDataset/201801-fordgobike-tripdata.csv",
+    "name": "201801-fordgobike-tripdata",
+    "header": 1,
+    "separator": ",",
+    "dateformat": ["YYYY-MM-DD HH:mm:ss"],
+    "meta": {
+      "start_date": "start_time",
+      "end_date": "end_time",
+      "start_latitude": "start_station_latitude",
+      "start_longitude": "start_station_longitude",
+      "end_latitude": "end_station_latitude",
+      "end_longitude": "end_station_longitude",
+      "group_1": "start_city",
+      "group_2": "end_city"
+    },
+    "attributes": [
+      {
+        "name": "start_station_id", 
+        "type": "quantitative"
+      },
+      {
+        "name": "start_station_name", 
+        "type": "categorical"
+      },
+      {
+        "name": "end_station_id", 
+        "type": "quantitative"
+      },
+      {
+        "name": "end_station_name", 
+        "type": "categorical"
+      },
+      {
+        "name": "duration_sec", 
+        "type": "quantitative"
+      },
+      {
+        "name": "bike_id", 
+        "type": "categorical"
+      },
+      {
+        "name": "user_type", 
+        "type": "categorical"
+      },
+      {
+        "name": "distance_km", 
+        "type": "quantitative"
+      },
+      {
+        "name": "member_birth_year", 
+        "type": "quantitative"
+      },
+      {
+        "name": "member_gender", 
+        "type": "categorical"
+      },
+      {
+        "name": "month", 
+        "type": "quantitative"
+      },
+      {
+        "name": "day", 
+        "type": "quantitative"
+      },
+      {
+        "name": "hour", 
+        "type": "quantitative"
+      },
+      {
+        "name": "bike_share_for_all_trip", 
+        "type": "categorical"
+      }
+    ],
+    "author": "Liu Liqun",
+    "description": "FordGoBike in US (Three cities)",
+    "source": "https://www.fordgobike.com/system-data"
+  }
