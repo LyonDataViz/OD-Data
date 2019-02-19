@@ -1,0 +1,31 @@
+{
+  "file": "minard/minard-data.csv",
+  "name": "Minard",
+  "header": 1,
+  "separator": ",",
+  "meta": {
+    "date": "id",
+    "start_latitude": "lat",
+    "start_longitude": "long",
+    "end_latitude": "lat",
+    "end_longitude": "long",
+    "group": "id"
+  },
+  "attributes": [
+    {
+      "name": "survivors",
+      "type": "quantitative"
+    },
+    {
+      "name": "direction",
+      "type": "categorical"
+    },
+    {
+      "name": "group",
+      "type": "categorical"
+    }
+  ],
+  "author": "Romain Vuillemot",
+  "description": "Minard",
+  "source": ""
+}

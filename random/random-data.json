@@ -1,0 +1,31 @@
+{
+  "file": "random/random-data.csv",
+  "name": "Random XY Data",
+  "header": 1,
+  "separator": ",",
+  "meta": {
+    "date": "time",
+    "group": "group"
+  },
+  "attributes": [
+    {
+      "name": "x1",
+      "type": "quantitative"
+    },
+    {
+      "name": "x2",
+      "type": "quantitative"
+    },
+    {
+      "name": "y1",
+      "type": "quantitative"
+    },
+    {
+      "name": "y2",
+      "type": "quantitative"
+    }
+  ],
+  "author": "Romain Vuillemot",
+  "description": "Random data",
+  "source": ""
+}
